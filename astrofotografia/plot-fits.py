@@ -4,10 +4,10 @@ from astropy.io import fits
 import os
 
 # Caminho para o diretório onde está o arquivo FITS
-fits_path = os.path.join('.', 'saturn/fits')
+fits_path = os.path.join('/fits')
 
 # Nome do arquivo FITS que você deseja acessar
-image_file = 'bias_01.fits'
+image_file = 'bias_02.fits'
 
 # Construindo o caminho completo para o arquivo FITS
 file_path = os.path.join(fits_path, image_file)
